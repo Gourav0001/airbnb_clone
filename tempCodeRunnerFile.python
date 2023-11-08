@@ -1,0 +1,8 @@
+def fuc(x):
+    if(x>0):
+        x -= 1
+        fuc(x)
+        print(x, end=" ")
+        x -= 1
+        fuc(x)
+fuc(4)
